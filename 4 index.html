@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>صفحة إعدادات الملف الشخصي</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 200px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 7px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      color: #333;
+      margin-top: 0;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    
+    textarea {
+      height: 200px;
+      
+    }
+    
+    button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Personal profile settings</h1>
+    <form>
+      <label for="fullName">full name</label>
+      <input type="text" id="fullName" placeholder="  Enter the full name">
+      
+      <label for="email">email :</label>
+      <input type="email" id="email" placeholder="  enter the email">
+      
+      <label for="bio">  your profile:</label>
+      <textarea id="bio" placeholder="  Enter your profile"></textarea>
+      
+      <label for="password"> password:</label>
+      <input type="password" id="password" placeholder="  enter password">
+      
+      <button type="submit"> save</button>
+    </form>
+  </div>
+</body>
+</html>
